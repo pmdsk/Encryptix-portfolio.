@@ -1,0 +1,441 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: whitesmoke;
+    background-color: black;
+}
+
+li{
+   text-decoration: none;
+}
+
+li a:hover{
+    color: orange;
+}
+
+button{
+    text-decoration: none;
+} 
+
+.navbar{
+    background: rgb(9, 0, 0); 
+    font-family: Calibri; 
+    padding-right: 15px; 
+    padding-left: 15px;
+    padding-top: 25px;
+    position: relative;
+    z-index: 1000;
+}
+
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    padding-top: 0px;
+}
+
+.logo a{
+    font-size: 25px; 
+    font-weight: 300; 
+    color: #ffffff; 
+    align-items: last baseline;
+}
+
+li{
+    list-style: none; 
+    display: inline-block;
+}
+
+li a{
+    color: white; 
+    font-size: 20px; 
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.navbar ul{
+    padding-left: 500px;
+}
+
+button{
+    background-color: black; 
+    margin-left: 10px; 
+    border-radius: 50px; 
+    padding: 10px; 
+    width: 90px;
+}
+
+button a{
+    color: white; 
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.myimg{
+    padding: 300px 0px 0px 700px;
+}
+
+.home{
+    position: relative;
+    min-height: 1080px;
+    width: 100%;
+    background: url(https://st3.depositphotos.com/10313122/35879/i/450/depositphotos_358794978-stock-photo-studio-shot-young-beautiful-indian.jpg) no-repeat ;
+    background-size: 900px;
+    padding-left: 150px;
+    background-position-x: 550px;
+    background-position-y: 160px;
+    display: flex;
+    padding:250px 0px 0px 240px;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+}
+
+.home-text h1{
+    font-family: 'Dosis' , sans-serif;
+    font-weight: 2000;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+.home-text h3{
+    word-spacing: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.home-text h4{
+    word-spacing: 13px;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.home-text h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* word-spacing: 8px; */
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.about-img img{
+    /* border-radius: 1000px; */
+    width: 100%;
+    height: auto;
+
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 64px;
+}
+
+.about-text h2{
+    font-family: 'Dosis' , sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.about-text h5{
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+span{
+    color: red;
+}
+
+.about-text p{
+    color: rgb(142, 142, 140);
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.skill{
+    background: rgb(13, 0, 0);
+}
+
+.skill-head h2{
+    text-align: center;
+    font-family: 'Dosis' , sans-serif;
+    font-weight: 800;
+    margin-bottom: 2px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.skill-center{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 35px;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.skill-box{
+    padding: 45px 30px;
+    border-radius: 13px;
+    background: rgb(48, 47, 47);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all ease .50s;
+}
+
+.skill i{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.skill h3{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.skill p{
+    color: rgb(112, 110, 108);
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.skill-box:hover{
+    transform: translateY(-8px);
+    border: 1px solid #4e4e4e
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&family=Ubuntu:wght@700&display=swap');
+
+.container::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    /* background-image: url(https://w0.peakpx.com/wallpaper/733/436/HD-wallpaper-purple-grey-minimal-abstract-abstract-artist-artwork-digital-art.jpg);  */
+    background-size: cover;
+    /* background-color: rgb(37, 34, 34); */
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    display:block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-style: italic; */
+    height: 130px;
+    padding-top: 60px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.maincontainer{
+    position: relative;
+    width: 350px;
+    height: 230px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 45px;
+    
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+     transform: rotateY(180deg);
+}
+
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://png.pngtree.com/background/20220715/original/pngtree-blue-technology-background-advertising-material-album-business-card-cover-poster-display-picture-image_1624711.jpg);
+    background-repeat: no-repeat;
+    color: rgb(250, 242, 242);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center; 
+}
+
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVQTT7_arn9YXCRtrqXCA3Y9BIeMtXb-KqpA&usqp=CAU);
+    color: rgb(243, 239, 233);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transform: rotateY(180deg);
+}
+
+.name1{
+    padding-left: 5%;
+}
+
+.subject1{
+    display: flex;
+    justify-content: center; 
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 5%;
+    font-family: 'Noto Serif', serif;
+    color: rgb(240, 206, 143);
+}
+
+.front img{
+    border-radius: 50%;
+    width: 180px;
+    height: 170px;
+    padding-top: 4%;
+    padding-left: 5%;
+}
+
+.qual{
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(240, 206, 143);
+}
+ 
+.mail1 a:hover{
+    color: rgb(79, 167, 244); 
+    text-decoration: none;
+    list-style: none;
+} 
+
+.phone1 a:hover{
+    color: rgb(79, 167, 244);
+    text-decoration: none;
+    list-style: none;
+}
+
+.mail1 a{
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+}
+
+.phone1 a{
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+}
+
+.re-link{
+    text-decoration: none;
+    color: rgb(183, 239, 223);
+    /* background-color: rgb(0, 69, 130); */
+    font-size: 25px;
+}
+
+.resume{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+.contact-section {
+    background: rgba(4, 0, 0, 0.8);
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    color: #f4eaea;
+
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+}
+
+.contact-section p {
+    margin-bottom: 20px;
+    color: #f2d7d7;
+    font-size: 1.2em;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section li {
+    margin-bottom: 10px;
+    color: #f1e4e4;
+    font-size: 1.1em;
+}
+
+.contact-section a {
+    color: #d35400;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0c0101;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+} */
